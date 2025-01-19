@@ -24,6 +24,11 @@ Sonuçlar En Başarılı Model: Random Forest Classifier en yüksek başarı ora
 
 Görselleştirmeler Korelasyon Matrisi: Özellikler arasındaki ilişkileri görselleştiren bir ısı haritası oluşturur. Öğrenme Eğrisi: Eğitim verisi büyüklüğü arttıkça modelin performansını gösteren bir öğrenme eğrisi çizilmiştir ve arttıkça test skorumuz artıyor. Sonuç Random Forest Classifier, kalp hastalığını tahmin etmek için en güvenilir performansı sergilemiş ve bu proje için tercih edilen model olmuştur.
 
+Sonuç Analizi
+Bu projede kalp hastalığı tahmin modeli geliştirildi ve farklı makine öğrenmesi algoritmaları ile model performansları değerlendirildi. Sonuçlara göre, Random Forest sınıflandırıcısı en iyi performansı gösterdi, yüksek başarı oranı, F1 skoru ve ROC AUC değeriyle kalp hastalığı tahmini için en güvenilir model oldu. Lojistik Regresyon ve SVM gibi modeller de iyi sonuçlar verdi, ancak Random Forest'ın çok daha yüksek doğruluğa ulaşması dikkat çekti. KNN modeli ise sınırlı başarı oranlarına sahipti ve diğer modellere göre daha düşük performans gösterdi.
+
+Model Karşılaştırması: Modeller arasında yapılan karşılaştırmalar, Random Forest’ın özellikle doğru tahminler yapmada üstün olduğunu ortaya koydu. SVM ve Lojistik Regresyon da benzer şekilde iyi sonuçlar elde etti. KNN ise özellikle küçük veri setlerinde daha düşük başarı gösterdi.
+
 Ad: Emir Çarıkçı
 
 Numara: 21360859060
